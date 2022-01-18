@@ -43,7 +43,7 @@ def main():
     mixer.init()
     mixer.music.load("audio.mp3")
     mixer.music.set_volume = 0.8
-    mixer.music.play
+    mixer.music.play()
 
     #start game
     background = Background(DISPLAYSURFACE)
